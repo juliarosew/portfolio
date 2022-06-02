@@ -3,22 +3,16 @@
 
 <head>
     <title>CSE142 | Portfolio Site</title>
-    <link rel="stylesheet" href="./myCss.css">
 </head>
 
 <body>
-    <div id="title">Julia's Portfolio</div>
+    <div id="title">[Your Name Here]</div>
     <div>
         <div id="left">
-            <h1>Me</h1>
-            <button type="button" onclick="show()" id="btnID">
-                Show Image
-            </button>
-            <img id="image" src="julia_wendling.png" alt="me" width="300px" height="400px" />
+            <img id="image" src="julia_wendling.png" alt="me" width="300px" height="300px" />
         </div>
         <div id="left">
-            <h1>Blueberry</h1>
-            <img src="IMG_1175.jpg" alt="blue" width="300px" height="400px" />
+            <h1>[Your Title Here]</h1>
         </div>
     </div>
 
@@ -30,6 +24,9 @@
             document.getElementById('image')
                     .style.display = "block";
  
+            /* Access button by id and change
+            the display property to none to 
+            hide the button*/
             document.getElementById('btnID')
                     .style.display = "none";
         }
